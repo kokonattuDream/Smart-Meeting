@@ -1,0 +1,34 @@
+<div class="rooms" align="center" style="border-radius: 3px; padding-top: 40px; min-height: 100%;">
+    <img id="lucyImg" src="./resources/chatlogo.png" alt="chatlogo">
+    <div style="display: flex; background-color: rgba(255, 255, 255, 0.9);">
+        <div class="navbar" style="height: 605px; width: 20%; position: relative;">
+            <ul>
+                <li id="Profile" onclick="location.href='#!/profile'">Profile</li>
+                <li id="Moments" onclick="location.href='#!/moments'">Moments</li>
+                <li id="Chats" onclick="location.href='#!/selectRoom'">Chats</li>
+                <li id="Email" onclick="location.href='#!/emailCenter'">Email</li>
+            </ul>
+                <button id="logoutbt" type="submit" onclick="location.href='#!/'">Log Out</button>
+        </div>
+        <div class="roomblock" align="center" style="padding-left: 60px; padding-right: 60px; padding-top: 40px; min-height: 100%;">
+
+            <h3 >Select which room you'd like to join below!!!</h3>
+            <ul class="room" style="margin: 40px;">
+                <div ng-repeat="item in rooms">
+                    <p ng-click="goToChatRoom(item)">{{ item }} </p>
+                </div>
+            </ul>
+
+            <div class="form-group">
+                <div class="form-check">
+                  <label class="form-check-label" for="gridCheck">
+                    Room Name:
+                  </label>
+                  <input type="roomName" ng-model = "newRoom" class="form-control" id="roomName" placeholder="Room Name">
+                  <button type="submit" ng-click = "addRoom(newRoom)">Add Room</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

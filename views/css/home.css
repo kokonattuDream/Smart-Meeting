@@ -1,0 +1,306 @@
+
+.signinpage, .signuppage {
+    margin-top: 50px;
+    width: 50%;
+    margin: auto;
+}
+
+.signinblock {
+    background: rgba(255, 255, 255, 0.5);
+    height: 400px;
+}
+
+.signupblock {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.signupform {
+    font-family: sans-serif;
+    color: black;
+}
+
+img#lucyImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.purplebt {
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    background-color: #D3BFFC;
+    color: black;
+    border: none;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#signupbt2, #signinbt2 {
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FE8BEE;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: black;
+}
+
+.signinform input[type=text] {
+    width: 60%;
+    height: 30px;
+    padding: 3px;
+    margin: 20px;
+    border: 1px solid #A6A6A6;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.signupform input[type=text] {
+    width: 100%;
+    height: 30px;
+    padding: 3px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 3px solid #C84436;
+    background: none;
+    font-size: 15px;
+}
+
+.signupform input::placeholder {
+    color: #F2F3F4;
+    font-weight: lighter;
+}
+
+#signininput input[type=button] {
+    width: 20%;
+    height: 40px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid #D3BFFC;
+    background-color: #D3BFFC;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.signinform input:focus {
+    background-color: #D6EAF8;
+}
+
+.signupform input:focus {
+    background-color: #FDEDEC;
+}
+
+.roomList, .chatRoom {
+    margin-top: 30px;
+    width: 100%;
+    margin: auto;
+}
+
+.chat {
+    width: 100%;
+    position: relative;
+    background: rgba(255, 255, 255, 0.90);
+}
+
+.roomblock {
+    width: 100%;
+    margin: 0;
+}
+
+.emailblock{
+    width: 100%;
+    margin: 0;
+}
+
+.chatHeader {
+    width: 100%;
+    height: 50px;
+    background-color:#8E44AD;
+    border-radius: 3px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#messageArea {
+    position: absolute;
+    width: 85%;
+    bottom: 0;
+}
+
+#chatBack {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #BB8FCE;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+}
+
+#chatBack:hover {
+    color: black;
+}
+
+.chatRoom ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+
+#entryBox {
+    position: relative;
+    margin-top: 300px;
+    bottom: 0px;
+}
+
+#msg{
+    background: #A6A6A6;
+}
+.navbar ul a{
+    text-decoration: none;
+}
+
+.navbar {
+    height:605px;
+    width: 20%;
+    position: relative;
+}
+
+.navbar ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.navbar li {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #AED6F1;
+    border: none;
+    border-radius: 3px;
+    color: #154360;
+    width: 100%;
+}
+
+.navbar li:hover {
+    background-color: #0099cc;
+}
+
+/* Room Pages CSS */
+
+.roomblock p {
+    border-color: #2C3E50;
+    background-color: #2C3E50;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    border: 2px;
+    height: 100%;
+    width: 60%;
+}
+
+.emailblock p {
+    border-color: #2C3E50;
+    background-color: #2C3E50;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    border: 2px;
+    height: 100%;
+    width: 60%;
+}
+
+
+#logoutbt {
+    width: 50%;
+    height: 40px;
+    background-color: black;
+    border-radius: 3px;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.selfUser {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    background-color: #D4EFDF;
+    border: none;
+    border-radius: 3px;
+    color: #145A32;
+    clear: both;
+}
+
+.otherUser {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    background-color: #D6EAF8;
+    border: none;
+    border-radius: 3px;
+    color: #2471A3;
+    clear: both;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#userName{
+    font-size: 60px;
+    font-family: Verdana, sans-serif;
+}
+
+#userInfo{
+    font-size: 20px;
+    font-family: Gill Sans, sans-serif;
+    color: black;
+    font-weight: 500;
+}
+.card-title{
+    font-size: 20px;
+    font-family: Gill Sans, sans-serif;
+    font-weight: normal;
+    color:rgba(51, 45, 45, 0.753);
+}
+
+#noticebutton {
+    width: 20%;
+    height: 50px;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    background-color: #D1F2EB;
+    color: black;
+    border: none;
+
+    font-size: 20px;
+}
+
+#noticebutton:hover {
+    background-color: #1ABC9C;
+}
