@@ -80,4 +80,19 @@ Our project is a web-chat application called Smart Meeting. The two highlighted 
 
 
 
+Title Page
+[![html light](https://github.com/kokonattuDream/Smart-Meeting/blob/master/Pictures/TitlePage.png)](https://github.com/kokonattuDream/Smart-Meeting/blob/master/Pictures/TitlePage.png)
+
+Sign Up Page
+[![html light](https://github.com/kokonattuDream/Smart-Meeting/blob/master/Pictures/SignUp.png)](https://github.com/kokonattuDream/Smart-Meeting/blob/master/Pictures/SignUp.png)
+
+Home Page
+[![html light](https://github.com/kokonattuDream/Smart-Meeting/blob/master/Pictures/HomePage.png)](https://github.com/kokonattuDream/Smart-Meeting/blob/master/Pictures/HomePage.png)
+
+Chat Room
+[![html light](https://github.com/kokonattuDream/Smart-Meeting/blob/master/Pictures/ChatRoom.png)](https://github.com/kokonattuDream/Smart-Meeting/blob/master/Pictures/ChatRoom.png)
+
+
+
+
   
