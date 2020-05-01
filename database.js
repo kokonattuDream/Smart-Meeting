@@ -1,9 +1,9 @@
-var express = require('express');
-var triggers = require('mongo-triggers');
-var MongoClient = require('mongodb').MongoClient;
+let express = require('express');
+let triggers = require('mongo-triggers');
+let MongoClient = require('mongodb').MongoClient;
 
-var url = "mongodb://18.188.83.191:27017/local";
-var db;
+let url = "mongodb://18.188.83.191:27017/local";
+let db;
 
 MongoClient.connect(url, function(err, mydb) {
   if (err) throw err;

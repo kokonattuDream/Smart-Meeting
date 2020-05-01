@@ -1,9 +1,9 @@
 // Dependencies
-var gulp = require('gulp');
-var deploy = require('gulp-gh-pages');
-var nodemon = require('gulp-nodemon');
-var notify = require('gulp-notify');
-var livereload = require('gulp-livereload');
+let gulp = require('gulp');
+let deploy = require('gulp-gh-pages');
+let nodemon = require('gulp-nodemon');
+let notify = require('gulp-notify');
+let livereload = require('gulp-livereload');
  
 // Task
 gulp.task('default', function() {

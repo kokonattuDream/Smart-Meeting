@@ -1,17 +1,17 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const DB = require('./DBcontrol.js');
-var ObjectId = require('mongodb').ObjectID;
+let ObjectId = require('mongodb').ObjectID;
 
 const app= express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 const port = 3000;
 
-var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://18.188.83.191:27017/local";
+let MongoClient = require('mongodb').MongoClient;
+let url = "mongodb://18.188.83.191:27017/local";
 
-var db;
+let db;
 
 MongoClient.connect(url, (err, client) => {
     if (err) return console.log(err)
